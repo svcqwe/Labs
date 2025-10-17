@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F5C6D-C212-4556-B341-6AB1446198B1}|Lab_2\\Lab_2.csproj|c:\\users\\mvideo\\source\\repos\\lab_2\\lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F5C6D-C212-4556-B341-6AB1446198B1}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F5C6D-C212-4556-B341-6AB1446198B1}|Lab_2\\Lab_2.csproj|c:\\users\\mvideo\\source\\repos\\lab_2\\lab_2\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F5C6D-C212-4556-B341-6AB1446198B1}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F5C6D-C212-4556-B341-6AB1446198B1}|Lab_2\\Lab_2.csproj|c:\\users\\mvideo\\source\\repos\\lab_2\\lab_2\\file_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F5C6D-C212-4556-B341-6AB1446198B1}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\file_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\Lab_2\\Command.cs",
+              "RelativeDocumentMoniker": "Lab_2\\Command.cs",
+              "ToolTip": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\Lab_2\\Command.cs",
+              "RelativeToolTip": "Lab_2\\Command.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:52:44.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "file_manager.cs",
+              "DocumentMoniker": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\Lab_2\\file_manager.cs",
+              "RelativeDocumentMoniker": "Lab_2\\file_manager.cs",
+              "ToolTip": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\Lab_2\\file_manager.cs",
+              "RelativeToolTip": "Lab_2\\file_manager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T06:42:59.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\Lab_2\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_2\\Program.cs",
+              "ToolTip": "C:\\Users\\mvideo\\source\\repos\\Lab_2\\Lab_2\\Program.cs",
+              "RelativeToolTip": "Lab_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T06:11:39.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
