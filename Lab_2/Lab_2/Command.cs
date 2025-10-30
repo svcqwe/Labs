@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
-    internal class Command
+    public interface ICommand
+    {
+        void delete(string path);
+        void copy(string sourth_path, string goal_path);
+        void rename(string path, string new_name);
+        void replace(string sourth_path, string goal_path);
+        void search(string dir_path, string file_name);
+    }
+
+
+    internal class Command : ICommand
     {
         public void delete(string path)
         {
