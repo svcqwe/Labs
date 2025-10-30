@@ -9,24 +9,37 @@ namespace Lab_2
         {
             while (true)
             {
-                Console.WriteLine("\nДоступные команды:");
-                Console.WriteLine("0. Выйти из программы\n" +
-                                  "1. Просотр содержимого директории\n" +
-                                  "2. Удалить файл/папку\n" +
-                                  "3. Копировать файл/папку\n" +
-                                  "4. Переимновать файл/папку\n" +
-                                  "5. Переместить файл/папку\n" +
-                                  "6. Поиск файла/папки\n");
-                Console.Write("Введи номер команды: ");
-                int choose = int.Parse(Console.ReadLine());
-                Console.Write("\n");
+                int choose = -1;
+                try
+                {
+                    Console.WriteLine("\nДоступные команды:");
+                    Console.WriteLine("0. Выйти из программы\n" +
+                                      "1. Просотр содержимого директории\n" +
+                                      "2. Удалить файл/папку\n" +
+                                      "3. Копировать файл/папку\n" +
+                                      "4. Переимновать файл/папку\n" +
+                                      "5. Переместить файл/папку\n" +
+                                      "6. Поиск файла/папки\n");
+                    Console.Write("Введи номер команды: ");
+                    choose = int.Parse(Console.ReadLine());
+                    Console.Write("\n");
+                }
+                catch
+                {
+                    Console.WriteLine("\nВводи только одно число из списка команд!");
+                }
+
+                if (choose == -1)
+                {
+                    continue;
+                }
 
                 if (choose == 0)
                 {
                     break;
                 }
                 
-                if (choose == 1)
+                else if (choose == 1)
                 {
                     Console.WriteLine("Введи абсолютный путь до папки");
                     string path = Console.ReadLine();
@@ -41,7 +54,7 @@ namespace Lab_2
                     }
                 }
                 
-                if(choose == 2)
+                else if(choose == 2)
                 {
                     Console.WriteLine("Введи абсолютный путь до директории/файла");
                     string path = Console.ReadLine();
@@ -56,7 +69,7 @@ namespace Lab_2
                     }
                 }
 
-                if(choose == 3)
+                else if(choose == 3)
                 {
                     Console.WriteLine("Введи абсолютный путь до директории/файла, который нужно переместить: ");
                     string sourth_path = Console.ReadLine();
@@ -73,7 +86,7 @@ namespace Lab_2
                     }
                 }
 
-                if(choose == 4)
+                else if(choose == 4)
                 {
                     Console.WriteLine("Введи абсолютный путь до директории/файла, который нужно переименовать: ");
                     string path = Console.ReadLine();
@@ -90,7 +103,7 @@ namespace Lab_2
                     }
                 }
 
-                if(choose == 5)
+                else if(choose == 5)
                 {
                     Console.WriteLine("Введи абсолютный путь до директории/файла, который нужно переместить: ");
                     string sourth_path = Console.ReadLine();
@@ -107,7 +120,7 @@ namespace Lab_2
                     }
                 }
 
-                if(choose == 6)
+                else if(choose == 6)
                 {
                     Console.WriteLine("Введи абсолютный путь до директории, где нужно найти файл: ");
                     string dir_path = Console.ReadLine();
@@ -123,6 +136,10 @@ namespace Lab_2
                     {
                         Console.WriteLine("Неверно введен путь до директории/папкм, либо выбранный файл уже есть в выбранной директории");
                     }
+                }
+                else
+                {
+                    Console.WriteLine("\nВводи только одно число из списка команд!");
                 }
             }
         }
