@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Обязательная переменная конструктора.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Освободить все используемые ресурсы.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,294 +20,331 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Код, автоматически созданный конструктором форм Windows
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Требуемый метод для поддержки конструктора — не изменяйте 
+        /// содержимое этого метода с помощью редактора кода.
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            richTextBox1 = new RichTextBox();
-            button17 = new Button();
-            SuspendLayout();
+            this.output_textbox = new System.Windows.Forms.TextBox();
+            this.seven_btn = new System.Windows.Forms.Button();
+            this.eight_btn = new System.Windows.Forms.Button();
+            this.nine_btn = new System.Windows.Forms.Button();
+            this.six_btn = new System.Windows.Forms.Button();
+            this.five_btn = new System.Windows.Forms.Button();
+            this.four_btn = new System.Windows.Forms.Button();
+            this.three_btn = new System.Windows.Forms.Button();
+            this.two_btn = new System.Windows.Forms.Button();
+            this.one_btn = new System.Windows.Forms.Button();
+            this.equal_btn = new System.Windows.Forms.Button();
+            this.zero_btn = new System.Windows.Forms.Button();
+            this.comma_btn = new System.Windows.Forms.Button();
+            this.plus_btn = new System.Windows.Forms.Button();
+            this.minus_btn = new System.Windows.Forms.Button();
+            this.multiply_btn = new System.Windows.Forms.Button();
+            this.division_btn = new System.Windows.Forms.Button();
+            this.pow_btn = new System.Windows.Forms.Button();
+            this.del_btn = new System.Windows.Forms.Button();
+            this.once_del_btn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
-            // button1
+            // output_textbox
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Font = new Font("Segoe UI", 15F);
-            button1.Location = new Point(22, 72);
-            button1.Name = "button1";
-            button1.Size = new Size(126, 59);
-            button1.TabIndex = 0;
-            button1.Text = "Del";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += btn_delete;
+            this.output_textbox.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.output_textbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.output_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.output_textbox.Location = new System.Drawing.Point(13, 15);
+            this.output_textbox.Margin = new System.Windows.Forms.Padding(0);
+            this.output_textbox.Name = "output_textbox";
+            this.output_textbox.Size = new System.Drawing.Size(290, 53);
+            this.output_textbox.TabIndex = 0;
+            this.output_textbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button2
+            // seven_btn
             // 
-            button2.BackColor = SystemColors.ActiveCaption;
-            button2.Font = new Font("Segoe UI", 15F);
-            button2.Location = new Point(22, 332);
-            button2.Name = "button2";
-            button2.Size = new Size(192, 59);
-            button2.TabIndex = 2;
-            button2.Text = "0";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += btn_num_click;
+            this.seven_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.seven_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.seven_btn.Location = new System.Drawing.Point(13, 136);
+            this.seven_btn.Name = "seven_btn";
+            this.seven_btn.Size = new System.Drawing.Size(74, 47);
+            this.seven_btn.TabIndex = 1;
+            this.seven_btn.Text = "7";
+            this.seven_btn.UseVisualStyleBackColor = false;
+            this.seven_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button3
+            // eight_btn
             // 
-            button3.BackColor = SystemColors.ActiveCaption;
-            button3.Font = new Font("Segoe UI", 15F);
-            button3.Location = new Point(220, 332);
-            button3.Name = "button3";
-            button3.Size = new Size(60, 59);
-            button3.TabIndex = 3;
-            button3.Text = "=";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += btn_calculate;
+            this.eight_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.eight_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.eight_btn.Location = new System.Drawing.Point(93, 136);
+            this.eight_btn.Name = "eight_btn";
+            this.eight_btn.Size = new System.Drawing.Size(74, 47);
+            this.eight_btn.TabIndex = 2;
+            this.eight_btn.Text = "8";
+            this.eight_btn.UseVisualStyleBackColor = false;
+            this.eight_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button4
+            // nine_btn
             // 
-            button4.BackColor = SystemColors.ActiveCaption;
-            button4.Font = new Font("Segoe UI", 15F);
-            button4.Location = new Point(220, 72);
-            button4.Name = "button4";
-            button4.Size = new Size(60, 59);
-            button4.TabIndex = 4;
-            button4.Text = "+";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += btn_action_click;
+            this.nine_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.nine_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.nine_btn.Location = new System.Drawing.Point(173, 136);
+            this.nine_btn.Name = "nine_btn";
+            this.nine_btn.Size = new System.Drawing.Size(74, 47);
+            this.nine_btn.TabIndex = 3;
+            this.nine_btn.Text = "9";
+            this.nine_btn.UseVisualStyleBackColor = false;
+            this.nine_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button5
+            // six_btn
             // 
-            button5.BackColor = SystemColors.ActiveCaption;
-            button5.Font = new Font("Segoe UI", 15F);
-            button5.Location = new Point(22, 137);
-            button5.Name = "button5";
-            button5.Size = new Size(60, 59);
-            button5.TabIndex = 5;
-            button5.Text = "7";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += btn_num_click;
+            this.six_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.six_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.six_btn.Location = new System.Drawing.Point(173, 189);
+            this.six_btn.Name = "six_btn";
+            this.six_btn.Size = new System.Drawing.Size(74, 47);
+            this.six_btn.TabIndex = 6;
+            this.six_btn.Text = "6";
+            this.six_btn.UseVisualStyleBackColor = false;
+            this.six_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button6
+            // five_btn
             // 
-            button6.BackColor = SystemColors.ActiveCaption;
-            button6.Font = new Font("Segoe UI", 15F);
-            button6.Location = new Point(88, 137);
-            button6.Name = "button6";
-            button6.Size = new Size(60, 59);
-            button6.TabIndex = 6;
-            button6.Text = "8";
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += btn_num_click;
+            this.five_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.five_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.five_btn.Location = new System.Drawing.Point(93, 189);
+            this.five_btn.Name = "five_btn";
+            this.five_btn.Size = new System.Drawing.Size(74, 47);
+            this.five_btn.TabIndex = 5;
+            this.five_btn.Text = "5";
+            this.five_btn.UseVisualStyleBackColor = false;
+            this.five_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button7
+            // four_btn
             // 
-            button7.BackColor = SystemColors.ActiveCaption;
-            button7.Font = new Font("Segoe UI", 15F);
-            button7.Location = new Point(220, 137);
-            button7.Name = "button7";
-            button7.Size = new Size(60, 59);
-            button7.TabIndex = 8;
-            button7.Text = "-";
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += btn_action_click;
+            this.four_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.four_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.four_btn.Location = new System.Drawing.Point(13, 189);
+            this.four_btn.Name = "four_btn";
+            this.four_btn.Size = new System.Drawing.Size(74, 47);
+            this.four_btn.TabIndex = 4;
+            this.four_btn.Text = "4";
+            this.four_btn.UseVisualStyleBackColor = false;
+            this.four_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button8
+            // three_btn
             // 
-            button8.BackColor = SystemColors.ActiveCaption;
-            button8.Font = new Font("Segoe UI", 15F);
-            button8.Location = new Point(154, 137);
-            button8.Name = "button8";
-            button8.Size = new Size(60, 59);
-            button8.TabIndex = 7;
-            button8.Text = "9";
-            button8.UseVisualStyleBackColor = false;
-            button8.Click += btn_num_click;
+            this.three_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.three_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.three_btn.Location = new System.Drawing.Point(173, 242);
+            this.three_btn.Name = "three_btn";
+            this.three_btn.Size = new System.Drawing.Size(74, 47);
+            this.three_btn.TabIndex = 9;
+            this.three_btn.Text = "3";
+            this.three_btn.UseVisualStyleBackColor = false;
+            this.three_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button9
+            // two_btn
             // 
-            button9.BackColor = SystemColors.ActiveCaption;
-            button9.Font = new Font("Segoe UI", 15F);
-            button9.Location = new Point(220, 267);
-            button9.Name = "button9";
-            button9.Size = new Size(60, 59);
-            button9.TabIndex = 16;
-            button9.Text = "/";
-            button9.UseVisualStyleBackColor = false;
-            button9.Click += btn_action_click;
+            this.two_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.two_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.two_btn.Location = new System.Drawing.Point(93, 242);
+            this.two_btn.Name = "two_btn";
+            this.two_btn.Size = new System.Drawing.Size(74, 47);
+            this.two_btn.TabIndex = 8;
+            this.two_btn.Text = "2";
+            this.two_btn.UseVisualStyleBackColor = false;
+            this.two_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button10
+            // one_btn
             // 
-            button10.BackColor = SystemColors.ActiveCaption;
-            button10.Font = new Font("Segoe UI", 15F);
-            button10.Location = new Point(154, 267);
-            button10.Name = "button10";
-            button10.Size = new Size(60, 59);
-            button10.TabIndex = 15;
-            button10.Text = "3";
-            button10.UseVisualStyleBackColor = false;
-            button10.Click += btn_num_click;
+            this.one_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.one_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.one_btn.Location = new System.Drawing.Point(13, 242);
+            this.one_btn.Name = "one_btn";
+            this.one_btn.Size = new System.Drawing.Size(74, 47);
+            this.one_btn.TabIndex = 7;
+            this.one_btn.Text = "1";
+            this.one_btn.UseVisualStyleBackColor = false;
+            this.one_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button11
+            // equal_btn
             // 
-            button11.BackColor = SystemColors.ActiveCaption;
-            button11.Font = new Font("Segoe UI", 15F);
-            button11.Location = new Point(88, 267);
-            button11.Name = "button11";
-            button11.Size = new Size(60, 59);
-            button11.TabIndex = 14;
-            button11.Text = "2";
-            button11.UseVisualStyleBackColor = false;
-            button11.Click += btn_num_click;
+            this.equal_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.equal_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.equal_btn.Location = new System.Drawing.Point(173, 295);
+            this.equal_btn.Name = "equal_btn";
+            this.equal_btn.Size = new System.Drawing.Size(74, 47);
+            this.equal_btn.TabIndex = 12;
+            this.equal_btn.Text = "=";
+            this.equal_btn.UseVisualStyleBackColor = false;
+            this.equal_btn.Click += new System.EventHandler(this.btn_calculate);
             // 
-            // button12
+            // zero_btn
             // 
-            button12.BackColor = SystemColors.ActiveCaption;
-            button12.Font = new Font("Segoe UI", 15F);
-            button12.Location = new Point(22, 267);
-            button12.Name = "button12";
-            button12.Size = new Size(60, 59);
-            button12.TabIndex = 13;
-            button12.Text = "1";
-            button12.UseVisualStyleBackColor = false;
-            button12.Click += btn_num_click;
+            this.zero_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.zero_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.zero_btn.Location = new System.Drawing.Point(93, 295);
+            this.zero_btn.Name = "zero_btn";
+            this.zero_btn.Size = new System.Drawing.Size(74, 47);
+            this.zero_btn.TabIndex = 11;
+            this.zero_btn.Text = "0";
+            this.zero_btn.UseVisualStyleBackColor = false;
+            this.zero_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button13
+            // comma_btn
             // 
-            button13.BackColor = SystemColors.ActiveCaption;
-            button13.Font = new Font("Segoe UI", 15F);
-            button13.Location = new Point(220, 202);
-            button13.Name = "button13";
-            button13.Size = new Size(60, 59);
-            button13.TabIndex = 12;
-            button13.Text = "*";
-            button13.UseVisualStyleBackColor = false;
-            button13.Click += btn_action_click;
+            this.comma_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.comma_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comma_btn.Location = new System.Drawing.Point(13, 295);
+            this.comma_btn.Name = "comma_btn";
+            this.comma_btn.Size = new System.Drawing.Size(74, 47);
+            this.comma_btn.TabIndex = 10;
+            this.comma_btn.Text = ",";
+            this.comma_btn.UseVisualStyleBackColor = false;
+            this.comma_btn.Click += new System.EventHandler(this.btn_num_click);
             // 
-            // button14
+            // plus_btn
             // 
-            button14.BackColor = SystemColors.ActiveCaption;
-            button14.Font = new Font("Segoe UI", 15F);
-            button14.Location = new Point(154, 202);
-            button14.Name = "button14";
-            button14.Size = new Size(60, 59);
-            button14.TabIndex = 11;
-            button14.Text = "6";
-            button14.UseVisualStyleBackColor = false;
-            button14.Click += btn_num_click;
+            this.plus_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.plus_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.plus_btn.Location = new System.Drawing.Point(253, 295);
+            this.plus_btn.Name = "plus_btn";
+            this.plus_btn.Size = new System.Drawing.Size(50, 47);
+            this.plus_btn.TabIndex = 16;
+            this.plus_btn.Text = "+";
+            this.plus_btn.UseVisualStyleBackColor = false;
+            this.plus_btn.Click += new System.EventHandler(this.btn_action_click);
             // 
-            // button15
+            // minus_btn
             // 
-            button15.BackColor = SystemColors.ActiveCaption;
-            button15.Font = new Font("Segoe UI", 15F);
-            button15.Location = new Point(88, 202);
-            button15.Name = "button15";
-            button15.Size = new Size(60, 59);
-            button15.TabIndex = 10;
-            button15.Text = "5";
-            button15.UseVisualStyleBackColor = false;
-            button15.Click += btn_num_click;
+            this.minus_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.minus_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.minus_btn.Location = new System.Drawing.Point(253, 242);
+            this.minus_btn.Name = "minus_btn";
+            this.minus_btn.Size = new System.Drawing.Size(50, 47);
+            this.minus_btn.TabIndex = 15;
+            this.minus_btn.Text = "-";
+            this.minus_btn.UseVisualStyleBackColor = false;
+            this.minus_btn.Click += new System.EventHandler(this.btn_action_click);
             // 
-            // button16
+            // multiply_btn
             // 
-            button16.BackColor = SystemColors.ActiveCaption;
-            button16.Font = new Font("Segoe UI", 15F);
-            button16.Location = new Point(22, 202);
-            button16.Name = "button16";
-            button16.Size = new Size(60, 59);
-            button16.TabIndex = 9;
-            button16.Text = "4";
-            button16.UseVisualStyleBackColor = false;
-            button16.Click += btn_num_click;
+            this.multiply_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.multiply_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.multiply_btn.Location = new System.Drawing.Point(253, 189);
+            this.multiply_btn.Name = "multiply_btn";
+            this.multiply_btn.Size = new System.Drawing.Size(50, 47);
+            this.multiply_btn.TabIndex = 14;
+            this.multiply_btn.Text = "x";
+            this.multiply_btn.UseVisualStyleBackColor = false;
+            this.multiply_btn.Click += new System.EventHandler(this.btn_action_click);
             // 
-            // richTextBox1
+            // division_btn
             // 
-            richTextBox1.Location = new Point(22, 19);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(258, 38);
-            richTextBox1.TabIndex = 17;
-            richTextBox1.Text = "";
+            this.division_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.division_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.division_btn.Location = new System.Drawing.Point(253, 136);
+            this.division_btn.Name = "division_btn";
+            this.division_btn.Size = new System.Drawing.Size(50, 47);
+            this.division_btn.TabIndex = 13;
+            this.division_btn.Text = "/";
+            this.division_btn.UseVisualStyleBackColor = false;
+            this.division_btn.Click += new System.EventHandler(this.btn_action_click);
             // 
-            // button17
+            // pow_btn
             // 
-            button17.BackColor = SystemColors.ActiveCaption;
-            button17.Font = new Font("Segoe UI", 15F);
-            button17.Location = new Point(154, 72);
-            button17.Name = "button17";
-            button17.Size = new Size(60, 59);
-            button17.TabIndex = 18;
-            button17.Text = "^";
-            button17.UseVisualStyleBackColor = false;
-            button17.Click += btn_action_click;
+            this.pow_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.pow_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pow_btn.Location = new System.Drawing.Point(253, 83);
+            this.pow_btn.Name = "pow_btn";
+            this.pow_btn.Size = new System.Drawing.Size(50, 47);
+            this.pow_btn.TabIndex = 17;
+            this.pow_btn.Text = "^";
+            this.pow_btn.UseVisualStyleBackColor = false;
+            this.pow_btn.Click += new System.EventHandler(this.btn_action_click);
+            // 
+            // del_btn
+            // 
+            this.del_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.del_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.del_btn.Location = new System.Drawing.Point(13, 83);
+            this.del_btn.Name = "del_btn";
+            this.del_btn.Size = new System.Drawing.Size(154, 47);
+            this.del_btn.TabIndex = 18;
+            this.del_btn.Text = "C";
+            this.del_btn.UseVisualStyleBackColor = false;
+            this.del_btn.Click += new System.EventHandler(this.btn_delete);
+            // 
+            // once_del_btn
+            // 
+            this.once_del_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(145)))), ((int)(((byte)(145)))));
+            this.once_del_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.once_del_btn.Location = new System.Drawing.Point(173, 83);
+            this.once_del_btn.Name = "once_del_btn";
+            this.once_del_btn.Size = new System.Drawing.Size(74, 47);
+            this.once_del_btn.TabIndex = 19;
+            this.once_del_btn.Text = "del";
+            this.once_del_btn.UseVisualStyleBackColor = false;
+            this.once_del_btn.Click += new System.EventHandler(this.btn_del_last);
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(304, 408);
-            Controls.Add(button17);
-            Controls.Add(richTextBox1);
-            Controls.Add(button9);
-            Controls.Add(button10);
-            Controls.Add(button11);
-            Controls.Add(button12);
-            Controls.Add(button13);
-            Controls.Add(button14);
-            Controls.Add(button15);
-            Controls.Add(button16);
-            Controls.Add(button7);
-            Controls.Add(button8);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Name = "Form1";
-            Text = "Form1";
-            Click += btn_action_click;
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(315, 355);
+            this.Controls.Add(this.once_del_btn);
+            this.Controls.Add(this.del_btn);
+            this.Controls.Add(this.pow_btn);
+            this.Controls.Add(this.plus_btn);
+            this.Controls.Add(this.minus_btn);
+            this.Controls.Add(this.multiply_btn);
+            this.Controls.Add(this.division_btn);
+            this.Controls.Add(this.equal_btn);
+            this.Controls.Add(this.zero_btn);
+            this.Controls.Add(this.comma_btn);
+            this.Controls.Add(this.three_btn);
+            this.Controls.Add(this.two_btn);
+            this.Controls.Add(this.one_btn);
+            this.Controls.Add(this.six_btn);
+            this.Controls.Add(this.five_btn);
+            this.Controls.Add(this.four_btn);
+            this.Controls.Add(this.nine_btn);
+            this.Controls.Add(this.eight_btn);
+            this.Controls.Add(this.seven_btn);
+            this.Controls.Add(this.output_textbox);
+            this.Name = "Form1";
+            this.Text = "Bogdanov\'s Calcucator";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private RichTextBox richTextBox1;
-        private Button button17;
+        private System.Windows.Forms.TextBox output_textbox;
+        private System.Windows.Forms.Button seven_btn;
+        private System.Windows.Forms.Button eight_btn;
+        private System.Windows.Forms.Button nine_btn;
+        private System.Windows.Forms.Button six_btn;
+        private System.Windows.Forms.Button five_btn;
+        private System.Windows.Forms.Button four_btn;
+        private System.Windows.Forms.Button three_btn;
+        private System.Windows.Forms.Button two_btn;
+        private System.Windows.Forms.Button one_btn;
+        private System.Windows.Forms.Button equal_btn;
+        private System.Windows.Forms.Button zero_btn;
+        private System.Windows.Forms.Button comma_btn;
+        private System.Windows.Forms.Button plus_btn;
+        private System.Windows.Forms.Button minus_btn;
+        private System.Windows.Forms.Button multiply_btn;
+        private System.Windows.Forms.Button division_btn;
+        private System.Windows.Forms.Button pow_btn;
+        private System.Windows.Forms.Button del_btn;
+        private System.Windows.Forms.Button once_del_btn;
     }
 }
+
